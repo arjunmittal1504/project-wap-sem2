@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+  background:
+    radial-gradient(circle at top, #dff4ff, #9ed8f7 45%, #5aa9e6 100%);
+  color: #12324a;
+}
+
+.card {
+  width: min(90vw, 520px);
+  padding: 2rem;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 20px 45px rgba(18, 50, 74, 0.18);
+  text-align: center;
+}
+
+.eyebrow {
+  margin: 0 0 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.75rem;
+  color: #2f7ca8;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2rem, 5vw, 3rem);
+}
+
+.description {
+  margin: 1rem 0 1.5rem;
+  line-height: 1.6;
+}
+
+.api-link {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  color: #0d6ea8;
+  font-weight: 700;
+  text-decoration: none;
+  word-break: break-word;
+}
+
+.api-link:hover {
+  text-decoration: underline;
+}
+
+.button {
+  border: 0;
+  border-radius: 999px;
+  padding: 0.9rem 1.4rem;
+  background: #0d6ea8;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.button:hover {
+  background: #095682;
+  transform: translateY(-1px);
+}
+
+.output {
+  min-height: 1.5rem;
+  margin-top: 1rem;
+  font-weight: 600;
+}
