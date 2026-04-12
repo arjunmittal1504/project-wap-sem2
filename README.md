@@ -1,77 +1,44 @@
-# Weather Dashboard Web App
+# Weather App
 
-## Project Description
+This is a simple beginner-friendly weather project made with HTML, CSS, and JavaScript.
 
-The Weather Dashboard is a web application that allows users to search for real-time weather information of any city. It provides key details such as temperature, humidity, and weather conditions using data fetched from a public API.
-
-This project demonstrates the use of JavaScript, API integration, and responsive UI design.
-
----
-
-## API Used
-
-* OpenWeatherMap API
-* https://api.openweathermap.org
-
-This API provides real-time weather data including temperature, humidity, and weather conditions.
-
----
+The app shows sample weather data and includes interactive features like search, filter, sort, favorite buttons, and dark mode.
 
 ## Features
 
-* Search weather by city name
-* Display temperature and humidity
-* Save favorite cities for quick access
-* Dark mode / Light mode toggle
-* Fully responsive design for mobile, tablet, and desktop
+- Search cities by name
+- Filter cities by weather condition
+- Sort cities by temperature or name
+- Mark cities as favorite
+- Toggle dark mode and light mode
 
----
+## Array Methods Used
 
-## Technologies Used
+This project uses JavaScript array higher-order functions:
 
-* HTML5
-* CSS3 (or Tailwind CSS / Bootstrap)
-* JavaScript (ES6)
-* Fetch API
+- `filter()` for search and filtering
+- `sort()` for sorting data
+- `map()` for showing cards on the page
 
----
+No `for` loop or `while` loop is used for search, filter, or sort.
 
-## Setup Instructions
+## Project Files
 
-1. Clone the repository
-2. Navigate to the project folder
-3. Open `index.html` in your browser
-4. Add your OpenWeatherMap API key in the JavaScript file
+- `index.html` - page structure
+- `style.css` - page design
+- `script.js` - app logic and interactivity
 
----
+## How to Run
 
-## Project Milestones
+1. Open the project folder.
+2. Open `index.html` in your browser.
 
-* Milestone 1: Project planning and setup
-* Milestone 2: API integration and data display
-* Milestone 3: Implement search, favorites, and dark mode
-* Milestone 4: Final touches, deployment, and documentation
+## API Link
 
----
+OpenWeather API:
 
-## Future Enhancements (Optional)
+`https://api.openweathermap.org`
 
-* Add weather icons and animations
-* Implement debounce for search input
-* Add loading indicator during API calls
-* Use localStorage to persist favorite cities
-* Display 5-day weather forecast
+## Note
 
----
-
-## Notes
-
-* Ensure a valid API key is used
-* Handle errors for invalid city names or network issues
-* Keep the UI clean and user-friendly
-
----
-
-## Conclusion
-
-This project demonstrates the use of API integration, DOM manipulation, and interactive UI development using JavaScript.
+This version uses sample weather data to show the features clearly in a simple way.
